@@ -9,31 +9,46 @@
 /* Header styling starts here */
 .header {
   width: 100%;
-  min-height: 70vh;
-  background: url("../img/bg-picture.jpg");
+  min-height: 90vh;
+  background-image: url("../img/bg-picture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 5%;
+}
+
+.header-content {
+  background: rgba(14, 12, 12, 0.7);
+  width: 100%;
+  min-height: 90vh;
   display: flex;
-  justify-content: space-around;
-  padding-top: 5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .logo {
   font-family: "barlow", sans-serif;
-  font-size: 7rem;
+  font-size: 3rem;
   color: #ff5900;
+  text-align: center;
 }
 
 .slogan {
-  font-size: 2rem;
+  font-size: 1rem;
   color: #ff5900;
+  text-align: center;
 }
 
 .create-form {
   background: rgba(225, 89, 0, 0.5);
   border: solid 2px #fa803e;
   border-radius: 5px;
-  height: 70%;
+  margin-top: 1%;
+}
+
+.btn-wrapper {
+  text-align: center;
 }
 
 .form-input,
@@ -68,11 +83,15 @@ select,
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 3%;
+  padding-bottom: 20px;
 }
 
 .search-form {
-  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn-search {
+  margin-top: 1%;
 }
 
 .search-input {
@@ -80,20 +99,15 @@ select,
   border: solid 2px #ff5900;
 }
 
-.meal-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
-}
-
 .food-container {
   background: #ff5900;
-  width: 350px;
+  width: 300px;
+  margin-top: 5%;
 }
 
 .food-image {
-  width: 350px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
   z-index: -5;
 }
 
@@ -103,7 +117,7 @@ select,
   background: #ff5900;
   padding: 5px;
   border-radius: 10px;
-  margin-left: 300px;
+  margin-left: 250px;
 }
 
 .food-info {
@@ -117,10 +131,12 @@ a {
 
 footer {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 footer p {
   color: #ff5900;
+  font-size: 12px;
 }
 /* Main part styling ends here */
 

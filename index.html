@@ -10,38 +10,42 @@
     <link href="https://fonts.googleapis.com/css?family=Barlow:500|Poppins:200" rel="stylesheet" />
     <title>Yummy! - Plan your meals ahead</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media-query.css" />
 </head>
 
 <body>
     <div class="container">
         <div class="header">
-            <div class="logo-slogan">
-                <h1 class="logo">Yummy!</h1>
-                <p class="slogan">Plan your meals ahead...</p>
+            <div class="header-content">
+                <div class="logo-slogan">
+                    <h1 class="logo">Yummy!</h1>
+                    <p class="slogan">Plan your meals ahead...</p>
+                </div>
+                <form class="create-form">
+                    <label>Meal Name</label><br>
+                    <input type="text" class="form-input" id="name"><br>
+
+                    <label>Category</label><br>
+                    <select name="category" id="add-category">
+                        <option value="breakfast">Breakfast</option>
+                        <option value="brunch">Brunch</option>
+                        <option value="lunch">Lunch</option>
+                        <option value="dinner">Dinner</option>
+                    </select><br>
+
+                    <label>Recipe Link</label><br>
+                    <input type="text" class="form-input" id="recipe-link"><br>
+
+                    <label>When will you cook this meal?</label><br>
+                    <input type="date" class="form-input" id="date"><br>
+
+                    <label>Add image link</label><br>
+                    <input type="text" class="form-input" id="image-link"><br>
+                    <div class="btn-wrapper">
+                        <button type="submit" class="btn btn-create">Create Plan</button>
+                    </div>
+                </form>
             </div>
-            <form class="create-form">
-                <label>Meal Name</label><br>
-                <input type="text" class="form-input" id="name"><br>
-
-                <label>Category</label><br>
-                <select name="category" id="add-category">
-                    <option value="breakfast">Breakfast</option>
-                    <option value="brunch">Brunch</option>
-                    <option value="lunch">Lunch</option>
-                    <option value="dinner">Dinner</option>
-                </select><br>
-
-                <label>Recipe Link</label><br>
-                <input type="text" class="form-input" id="recipe-link"><br>
-
-                <label>When will you cook this meal?</label><br>
-                <input type="date" class="form-input" id="date"><br>
-
-                <label>Add image link</label><br>
-                <input type="text" class="form-input" id="image-link"><br>
-
-                <button type="submit" class="btn btn-create">Create Plan</button>
-            </form>
         </div>
 
         <div class="main-part">
@@ -122,7 +126,7 @@
 
     <footer>
         <a href="https://saburahmed.netlify.com" target="_blank">
-            <p>Created by Sabur Ahmed, click here to view portfolio.</p>
+            <p>Built by Sabur Ahmed, click here to view portfolio.</p>
         </a>
     </footer>
     <script src="js/main.js"></script>

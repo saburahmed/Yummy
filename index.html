@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Barlow:500|Poppins:200" rel="stylesheet" />
+    <title>Yummy! - Plan your meals ahead</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-slogan">
+                <h1 class="logo">Yummy!</h1>
+                <p class="slogan">Plan your meals ahead...</p>
+            </div>
+            <form class="create-form">
+                <label>Meal Name</label><br>
+                <input type="text" class="form-input" id="name"><br>
+
+                <label>Category</label><br>
+                <select name="category" id="add-category">
+                    <option value="breakfast">Breakfast</option>
+                    <option value="brunch">Brunch</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>
+                </select><br>
+
+                <label>Recipe Link</label><br>
+                <input type="text" class="form-input" id="recipe-link"><br>
+
+                <label>When will you cook this meal?</label><br>
+                <input type="date" class="form-input" id="date"><br>
+
+                <label>Add image link</label><br>
+                <input type="text" class="form-input" id="image-link"><br>
+
+                <button type="submit" class="btn btn-create">Create Plan</button>
+            </form>
+        </div>
+
+        <div class="main-part">
+            <form class="search-form">
+                <input type="text" class="search-input" placeholder="e.g Fried Rice">
+                <button type="submit" class="btn btn-search">Search Meal</button>
+            </form>
+            <div class="meal-grid">
+                <div class="food-container">
+                    <div>
+                        <p class="food-category">Lunch</p>
+                        <img src="img/Amala-and-Ewedu-Abula.jpeg" class="food-image">
+                    </div>
+                    <div class="food-info">
+                        <h3>Meal Name</h3>
+                        <a href="#">view recipe</a>
+                        <h5>Date</h5>
+                    </div>
+                </div>
+                <div class="food-container">
+                    <div>
+                        <p class="food-category">Lunch</p>
+                        <img src="img/Amala-and-Ewedu-Abula.jpeg" class="food-image">
+                    </div>
+                    <div class="food-info">
+                        <h3>Meal Name</h3>
+                        <a href="#">view recipe</a>
+                        <h5>Date</h5>
+                    </div>
+                </div>
+                <div class="food-container">
+                    <div>
+                        <p class="food-category">Lunch</p>
+                        <img src="img/Amala-and-Ewedu-Abula.jpeg" class="food-image">
+                    </div>
+                    <div class="food-info">
+                        <h3>Meal Name</h3>
+                        <a href="#">view recipe</a>
+                        <h5>Date</h5>
+                    </div>
+                </div>
+                <div class="food-container">
+                    <div>
+                        <p class="food-category">Lunch</p>
+                        <img src="img/Amala-and-Ewedu-Abula.jpeg" class="food-image">
+                    </div>
+                    <div class="food-info">
+                        <h3>Meal Name</h3>
+                        <a href="#">view recipe</a>
+                        <h5>Date</h5>
+                    </div>
+                </div>
+                <div class="food-container">
+                    <div>
+                        <p class="food-category">Lunch</p>
+                        <img src="img/Amala-and-Ewedu-Abula.jpeg" class="food-image">
+                    </div>
+                    <div class="food-info">
+                        <h3>Meal Name</h3>
+                        <a href="#">view recipe</a>
+                        <h5>Date</h5>
+                    </div>
+                </div>
+                <div class="food-container">
+                    <div>
+                        <p class="food-category">Lunch</p>
+                        <img src="img/Amala-and-Ewedu-Abula.jpeg" class="food-image">
+                    </div>
+                    <div class="food-info">
+                        <h3>Meal Name</h3>
+                        <a href="#">view recipe</a>
+                        <h5>Date</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://saburahmed.netlify.com" target="_blank">
+            <p>Created by Sabur Ahmed, click here to view portfolio.</p>
+        </a>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

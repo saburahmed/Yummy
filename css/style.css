@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(245, 221, 11);
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+}
+
+/* Header styling starts here */
+.header {
+  width: 100%;
+  min-height: 70vh;
+  background: url("../img/bg-picture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+
+.logo {
+  font-family: "barlow", sans-serif;
+  font-size: 7rem;
+  color: #ff5900;
+}
+
+.slogan {
+  font-size: 2rem;
+  color: #ff5900;
+}
+
+.create-form {
+  background: rgba(225, 89, 0, 0.5);
+  border: solid 2px #fa803e;
+  border-radius: 5px;
+  height: 70%;
+}
+
+.form-input,
+select,
+.search-input {
+  background: #ff5900;
+  color: rgb(245, 221, 11);
+  border: solid 2px #fa803e;
+  width: 300px;
+  height: 40px;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+}
+
+.btn {
+  background: #fa803e;
+  border: none;
+  height: 40px;
+  margin-top: 20px;
+  color: rgb(245, 221, 11);
+  font-family: "barlow", sans-serif;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background: #ff5900;
+}
+/* Header styling ends here */
+
+/* Main part styling starts here */
+.main-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3%;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  background: #fff;
+  border: solid 2px #ff5900;
+}
+
+.meal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.food-container {
+  background: #ff5900;
+  width: 350px;
+}
+
+.food-image {
+  width: 350px;
+  height: 250px;
+  z-index: -5;
+}
+
+.food-category {
+  z-index: 1;
+  position: absolute;
+  background: #ff5900;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 300px;
+}
+
+.food-info {
+  margin-left: 10px;
+}
+
+a {
+  color: rgb(100, 94, 39);
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  color: #ff5900;
+}
+/* Main part styling ends here */
+
+/* API KEY: keyMhXE3U8DOQPgSG */
